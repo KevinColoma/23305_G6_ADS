@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProyectoEstudiantes:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProyectoEstudiantes_jar</output-path>
+    <root id="archive" name="ProyectoEstudiantes.jar">
+      <element id="module-output" name="ProyectoEstudiantes" />
+      <element id="module-output" name="ec.edu.espe" />
+    </root>
+  </artifact>
+</component>
