@@ -26,6 +26,6 @@ Este directorio contiene las especificaciones de pruebas unitarias que forman pa
 
 | Versión | Fecha | Responsable | Aprobado por |
 |---------|-------|-------------|--------------|
-| U3T3_Grupo6_PruebasUnitarias.pdf | 01/06/2025 | Kevin Coloma | Erick Moreira y Carlos Granda |
+| U3T3_Grupo6_PruebasUnitarias.pdf | 01/06/2025 |  Erick Moreira | Kevin Coloma |
 
 Estas versiones documentan la evolución de las pruebas unitarias desde las especificaciones iniciales hasta la implementación y ejecución de las pruebas automatizadas.

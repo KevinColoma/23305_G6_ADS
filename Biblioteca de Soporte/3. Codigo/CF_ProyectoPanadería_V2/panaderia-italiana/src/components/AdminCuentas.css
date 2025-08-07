@@ -1,0 +1,180 @@
+/* AdminCuentas.css */
+
+.admin-container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+}
+
+/* Dos columnas en desktop, una en móvil */
+.admin-panels {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .admin-panels {
+    grid-template-columns: 1.5fr 2fr;
+  }
+}
+
+/* Card genérica */
+.panel-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
+
+/* Título de sección */
+.panel-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+/* Formulario */
+.admin-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .admin-form {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Campos */
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.field label {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  color: #4b5563;
+}
+.field input,
+.field select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  transition: border-color .2s;
+}
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+/* Botones del formulario */
+.form-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+.btn {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.btn-clear-cuentas {
+  background: #f3f4f6;
+  color: #374151;
+  padding: 0.15rem 0.75rem; /* 👈 Menor altura: 0.25rem arriba y abajo */
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+}
+
+.btn-clear-cuentas:hover {
+  background: #e5e7eb;
+}
+
+.btn-submit {
+  background: #050241;
+  color: #fff;
+}
+.btn-submit:hover {
+  background: #4338ca;
+}
+
+/* Mensaje de estado */
+.mensaje {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+.mensaje.error {
+  color: #dc2626;
+}
+.mensaje.success {
+  color: #16a34a;
+}
+
+/* Lista de usuarios en «cards» */
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .user-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+.user-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-card .info {
+  font-size: 1rem;
+  color: #374151;
+}
+.user-card .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Botones de acción */
+.action-btn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color .2s;
+  color: #fff;
+}
+.action-btn.edit {
+  background: #2563eb;
+}
+.action-btn.edit:hover {
+  background: #2563eb;
+}
+.action-btn.delete {
+  background: #dc2606;
+}
+.action-btn.delete:hover {
+  background: #dc2626;
+}

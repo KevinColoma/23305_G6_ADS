@@ -26,7 +26,6 @@ Este directorio contiene documentación general del proyecto que forma parte del
 |---------|-------|-------------|--------------|
 | DOC_V1.0.0 | 08/05/2025 | Kevin Coloma | Erick Moreira y Carlos Granda |
 | DOC_V1.1.0 | 22/05/2025 | Erick Moreira | Carlos Granda y Kevin Coloma |
-| DOC_V1.2.0 | 05/06/2025 | Carlos Granda | Kevin Coloma y Erick Moreira |
-| DOC_V1.3.0 | 20/06/2025 | Kevin Coloma | Erick Moreira y Carlos Granda |
+
 
 Estas versiones incluyen toda la documentación complementaria necesaria para el entendimiento completo del proyecto y su contexto de negocio.

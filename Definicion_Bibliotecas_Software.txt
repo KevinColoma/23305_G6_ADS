@@ -1,0 +1,205 @@
+# DEFINICIÓN Y ESTABLECIMIENTO DE BIBLIOTECAS SOFTWARE
+# Proyecto: La Italiana Inventory Management - 23305_G6_ADS
+# Fecha: 07/08/2025
+# Responsables: Kevin Coloma, Erick Moreira, Carlos Granda
+
+================================================================================
+REESTRUCTURACIÓN DE BIBLIOTECAS DE SOFTWARE
+================================================================================
+
+OBJETIVO:
+Reorganizar las bibliotecas de software del proyecto siguiendo una estructura 
+de desarrollo iterativa que facilite la gestión de configuración y el control 
+de versiones de los elementos de configuración de software (ECS).
+
+ESTRUCTURA PROPUESTA:
+================================================================================
+
+23305_G6_ADS/
+└── PREGAME/
+    ├── Elicitación/
+    ├── Primera Iteración/
+    ├── Segunda Iteración/
+    ├── Tercera Iteración/
+    ├── Perfil de Proyecto/
+    └── Presentación/
+
+APLICACIÓN A LAS BIBLIOTECAS EXISTENTES:
+================================================================================
+
+1. BIBLIOTECA DE TRABAJO
+------------------------
+Propósito: Documentos en desarrollo activo y trabajo colaborativo
+
+Estructura reorganizada:
+23305_G6_ADS/
+└── Biblioteca de Trabajo/
+    └── PREGAME/
+        ├── Elicitación/
+        │   ├── Especificación de RS/
+        │   ├── Cronograma/
+        │   ├── Matriz IREB/
+        │   ├── Historias de Usuario/
+        │   ├── Actas de Reunión/
+        │   ├── Backlog/
+        │   ├── Pruebas Unitarias/
+        │   └── Reportes de Errores/
+        ├── Primera Iteración/
+        │   ├── Diseños Iniciales/
+        │   ├── Prototipos V1/
+        │   └── Pruebas Alfa/
+        ├── Segunda Iteración/
+        │   ├── Diseños Refinados/
+        │   ├── Implementación V2/
+        │   └── Pruebas Beta/
+        ├── Tercera Iteración/
+        │   ├── Diseños Finales/
+        │   ├── Sistema Completo/
+        │   └── Pruebas de Sistema/
+        ├── Perfil de Proyecto/
+        │   ├── Perfil V1/
+        │   ├── Perfil V2/
+        │   └── Perfil V3/
+        └── Presentación/
+            ├── Materiales de Presentación/
+            ├── Demos/
+            └── Videos/
+
+2. BIBLIOTECA DE SOPORTE
+------------------------
+Propósito: Documentos de referencia y plantillas de apoyo
+
+Estructura reorganizada:
+23305_G6_ADS/
+└── Biblioteca de Soporte/
+    └── PREGAME/
+        ├── Elicitación/
+        │   ├── Plantillas SRS/
+        │   ├── Guías IREB/
+        │   ├── Formatos de Historias de Usuario/
+        │   └── Templates de Pruebas/
+        ├── Primera Iteración/
+        │   ├── Estándares de Diseño/
+        │   ├── Guías de Codificación/
+        │   └── Plantillas de Pruebas Alfa/
+        ├── Segunda Iteración/
+        │   ├── Patrones de Diseño/
+        │   ├── Best Practices/
+        │   └── Plantillas de Pruebas Beta/
+        ├── Tercera Iteración/
+        │   ├── Estándares Finales/
+        │   ├── Métricas de Calidad/
+        │   └── Plantillas de Aceptación/
+        ├── Perfil de Proyecto/
+        │   ├── Formatos de Perfil/
+        │   ├── Rúbricas/
+        │   └── Lineamientos/
+        └── Presentación/
+            ├── Templates PPT/
+            ├── Guías de Presentación/
+            └── Formatos de Video/
+
+3. BIBLIOTECA MAESTRA
+---------------------
+Propósito: Versiones finales aprobadas y líneas base establecidas
+
+Estructura reorganizada:
+23305_G6_ADS/
+└── Biblioteca Maestra/
+    └── PREGAME/
+        ├── Elicitación/
+        │   ├── SRS Final Aprobado/
+        │   ├── Cronograma Definitivo/
+        │   ├── Matriz IREB Final/
+        │   ├── Historias de Usuario Aprobadas/
+        │   ├── Backlog Final/
+        │   └── Plan de Pruebas Aprobado/
+        ├── Primera Iteración/
+        │   ├── Línea Base Diseño V1/
+        │   ├── Código Fuente V1 Aprobado/
+        │   └── Resultados Pruebas Alfa/
+        ├── Segunda Iteración/
+        │   ├── Línea Base Diseño V2/
+        │   ├── Código Fuente V2 Aprobado/
+        │   └── Resultados Pruebas Beta/
+        ├── Tercera Iteración/
+        │   ├── Línea Base Final/
+        │   ├── Sistema Final Aprobado/
+        │   └── Reporte Final de Pruebas/
+        ├── Perfil de Proyecto/
+        │   └── Perfil Final Aprobado/
+        └── Presentación/
+            ├── Presentación Final/
+            ├── Demo Final/
+            └── Material de Defensa/
+
+BENEFICIOS DE LA REESTRUCTURACIÓN:
+================================================================================
+
+1. ORGANIZACIÓN ITERATIVA:
+   - Facilita el seguimiento del progreso por iteraciones
+   - Permite identificar claramente los entregables de cada fase
+   - Mejora la planificación y control del proyecto
+
+2. GESTIÓN DE CONFIGURACIÓN:
+   - Separación clara entre documentos de trabajo, soporte y versiones finales
+   - Mejor control de versiones por iteración
+   - Facilita la identificación de líneas base
+
+3. TRAZABILIDAD:
+   - Seguimiento claro de la evolución de documentos
+   - Facilita el mapeo entre iteraciones
+   - Mejor control de cambios y impactos
+
+4. EFICIENCIA EN EL TRABAJO:
+   - Acceso más rápido a documentos según su estado
+   - Reducción de confusiones entre versiones
+   - Mejor colaboración del equipo
+
+PLAN DE MIGRACIÓN:
+================================================================================
+
+FASE 1: Creación de nueva estructura
+- Crear carpetas PREGAME en cada biblioteca
+- Establecer subcarpetas por iteración
+
+FASE 2: Migración de contenido
+- Mover documentos según su clasificación temporal
+- Mantener nomenclatura existente de archivos
+
+FASE 3: Actualización de documentación
+- Actualizar referencias en READMEs
+- Ajustar rutas en documentos
+
+FASE 4: Validación
+- Verificar integridad de documentos migrados
+- Confirmar accesibilidad de todos los ECS
+
+CONSIDERACIONES TÉCNICAS:
+================================================================================
+
+- Mantener compatibilidad con sistema de versionado Git
+- Preservar historial de cambios durante la migración
+- Actualizar scripts o herramientas que referencien rutas antiguas
+- Considerar impacto en enlaces internos entre documentos
+
+RESPONSABILIDADES:
+================================================================================
+
+- Kevin Coloma: Migración de Biblioteca de Trabajo
+- Erick Moreira: Migración de Biblioteca de Soporte  
+- Carlos Granda: Migración de Biblioteca Maestra
+- Equipo completo: Validación y actualización de documentación
+
+CRONOGRAMA ESTIMADO:
+================================================================================
+
+Semana 1: Creación de estructura y migración
+Semana 2: Actualización de documentación y validación
+Semana 3: Pruebas y ajustes finales
+
+================================================================================
+FECHA DE ELABORACIÓN: 07 de Agosto de 2025
+VERSIÓN: 1.0
+ESTADO: Propuesta para Aprobación
+================================================================================

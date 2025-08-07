@@ -1,0 +1,86 @@
+:root {
+  /* Tipografía y escala base */
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Color base (modo claro) */
+  --color-bg: #ffffff;
+  --color-text: #1f2937; /* texto gris oscuro */
+  --color-link: #2563eb; /* azul vibrante */
+  --color-link-hover: #1d4ed8; /* azul más oscuro */
+  --color-button-bg: #f3f4f6; /* gris claro */
+  --color-button-hover: #e5e7eb; /* gris más oscuro */
+  --color-border: #d1d5db; /* gris borde */
+  --color-input-bg: #fff;
+  --color-input-border-focus: #2563eb; /* azul para focus */
+  --color-shadow: rgba(0, 0, 0, 0.05);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding-top: 60px; /* espacio para navbar fijo */
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+/* Tipografía */
+h1, h2, h3 {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+a:hover,
+a:focus {
+  color: var(--color-link-hover);
+  outline: none;
+  text-decoration: underline;
+}
+
+/* Botones */
+button {
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: 0.6em 1.2em;
+  background-color: var(--color-button-bg);
+  color: var(--colo

@@ -1,0 +1,16 @@
+.barra-carga {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  background: #2ecc71;
+  z-index: 9999;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.barra-carga.activa {
+  width: 100%;
+  opacity: 1;
+}

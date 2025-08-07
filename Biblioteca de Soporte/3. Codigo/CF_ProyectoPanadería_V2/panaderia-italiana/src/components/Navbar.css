@@ -1,0 +1,210 @@
+/* NAVBAR GENERAL */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+/* LOGO */
+.logo a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+/* BOTÓN HAMBURGUESA */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: #1f2937;
+}
+
+/* MENÚ PRINCIPAL */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  color: #1d4ed8;
+}
+
+/* Enlace activo y enfoque moderno */
+.menu a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding-bottom: 2px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: #032686;
+}
+
+.menu a.active {
+  color: #022890;
+}
+
+.menu a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #011b62;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+
+/* BOTÓN CERRAR SESIÓN */
+.logout-btn {
+  padding: 6px 14px;
+  background-color: #370404;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #ff021b;
+}
+
+/* SECCIONES DEL MENÚ */
+.menu-left,
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.menu-left a:last-child {
+  font-size: 1.25rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .menu {
+    gap: 1rem;
+  }
+
+  .logo a {
+    font-size: 1.15rem;
+  }
+
+  .menu-left,
+  .menu-right {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    display: none;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu-left,
+  .menu-right {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .logout-btn {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo a {
+    font-size: 1rem;
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+  }
+
+  .logout-btn {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
+
+.carrito-link {
+  position: relative;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.carrito-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: rgb(3, 24, 211);
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
