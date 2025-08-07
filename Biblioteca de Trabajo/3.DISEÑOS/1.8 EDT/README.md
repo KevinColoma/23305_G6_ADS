@@ -22,6 +22,6 @@ Este directorio contiene la Estructura de Desglose de Trabajo que forma parte de
 
 | Versión | Fecha | Responsable | Aprobado por |
 |---------|-------|-------------|--------------|
-| EDT_LaItaliana.pdf | 10/06/2025 | Kevin Coloma | Erick Moreira y Carlos Granda |
+| EDT_LaItaliana.pdf | 10/06/2025 | Erick Moreira |  Kevin Coloma y Carlos Granda |
 
 Esta versión define la descomposición jerárquica del trabajo necesario para completar el proyecto, organizando las tareas en paquetes de trabajo manejables.
