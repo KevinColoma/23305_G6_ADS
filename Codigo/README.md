@@ -21,9 +21,9 @@ Este directorio contiene las implementaciones del sistema en sus diferentes vers
 
 ## Tecnologías Utilizadas
 
-- **Backend:** Spring Boot (Java)
+- **Backend:** Node.js y Express
 - **Frontend:** React.js
-- **Base de Datos:** PostgreSQL/MySQL
+- **Base de Datos:** PostgreSQL
 - **Control de Versiones:** Git
 
 ## Historial de Versiones del Código
