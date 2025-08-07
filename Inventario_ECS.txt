@@ -1,0 +1,249 @@
+# INVENTARIO DE ELEMENTOS DE CONFIGURACIÓN DE SOFTWARE (ECS)
+# Proyecto: La Italiana Inventory Management - 23305_G6_ADS
+# Fecha de Inventario: 07/08/2025
+# Responsables: Kevin Coloma, Erick Moreira, Carlos Granda
+
+================================================================================
+TABLA DE INVENTARIO DE ECS
+================================================================================
+
+PRODUCTO (CÓDIGO ECS)                              | DESCRIPCIÓN
+================================================== | =======================================================
+
+DOCUMENTOS DE ESPECIFICACIÓN DE REQUISITOS
+--------------------------------------------------+-------------------------------------------------------
+SRS_TRA_001                                       | La Italiana SRS Editable V1.docx - SRS editable versión trabajo
+SRS_TRA_002                                       | La Italiana SRS V1.1.pdf - SRS versión 1.1 trabajo
+SRS_TRA_003                                       | La Italiana SRS V2.pdf - SRS versión 2 trabajo
+SRS_MAE_001                                       | La Italiana SRS V2.pdf - SRS versión final aprobada
+SRS_SOP_001                                       | La Italiana SRS V2.pdf - SRS versión soporte
+
+DOCUMENTOS DE PERFIL DE PROYECTO
+--------------------------------------------------+-------------------------------------------------------
+PER_PRO_001                                       | Perfil-Proyecto-La Italiana G6 V1.pdf - Primera versión perfil
+PER_PRO_002                                       | Perfil-Proyecto-La Italiana G6_V2 .pdf - Segunda versión perfil
+PER_PRO_003                                       | Perfil-Proyecto-La Italiana G6 _V3.pdf - Tercera versión perfil
+
+CRONOGRAMAS Y PLANIFICACIÓN
+--------------------------------------------------+-------------------------------------------------------
+CRO_001                                           | Cronograma_G6  La Italiana.xlsx - Cronograma inicial Excel
+CRO_002                                           | Cronograma_G6 - La Italiana.pdf - Cronograma PDF básico
+CRO_003                                           | Cronograma_G6  V2.pdf - Cronograma versión 2 PDF
+CRO_004                                           | Cronograma_G6 V2.xlsx - Cronograma versión 2 Excel
+CRO_005                                           | Planificación_Linea_Temporal -V2.pdf - Planificación temporal PDF
+CRO_006                                           | Planificación_Linea_Temporal V2.xlsx - Planificación temporal Excel
+
+MATRIZ IREB
+--------------------------------------------------+-------------------------------------------------------
+IREB_001                                          | Matriz_G6 IREB_La_Italiana_V1.xlsx - Matriz IREB versión 1
+IREB_002                                          | Matriz_G6 IREB_La_Italiana_V2.xlsx - Matriz IREB versión 2
+
+HISTORIAS DE USUARIO
+--------------------------------------------------+-------------------------------------------------------
+HU_001                                            | GN_Matriz de Marco de Trabajo HU  La Italiana.xlsx - Matriz HU V1
+HU_002                                            | GN_Matriz de Marco de Trabajo HU  La Italiana V2.xlsx - Matriz HU V2
+HU_003                                            | Historias de usuario_La Italiana.DOCX - Historias usuario DOCX
+HU_004                                            | Historias de Usuario_La Italiana.pdf - Historias usuario PDF V1
+HU_005                                            | Historias de usuario_La ItalianaV2.pdf - Historias usuario PDF V2
+
+BACKLOG DEL PROYECTO
+--------------------------------------------------+-------------------------------------------------------
+BCK_001                                           | Backlog V1 La Italiana.xlsx - Backlog versión 1
+BCK_002                                           | Backlog V2 La Italiana.xlsx - Backlog versión 2
+
+PRUEBAS UNITARIAS
+--------------------------------------------------+-------------------------------------------------------
+PU_001                                            | U3T3_Grupo6_PruebasUnitarias.pdf - Documento pruebas unitarias
+PU_002                                            | PLANTILLACAJA_BLANCA 2.1.docx - Plantilla caja blanca
+PU_003                                            | PLANTILLA_CAJA_NEGRA 2.1.docx - Plantilla caja negra
+PU_004                                            | Pruebas Portotipo.DOCX - Pruebas prototipo DOCX
+PU_005                                            | Pruebas Portotipo.pdf - Pruebas prototipo PDF
+
+PATRONES DE DISEÑO
+--------------------------------------------------+-------------------------------------------------------
+PAT_001                                           | Patron de Diseño La Italiana.pdf - Documento patrones diseño
+
+DISEÑO DE ARQUITECTURA
+--------------------------------------------------+-------------------------------------------------------
+ARQ_001                                           | Diagrama de Arquitectura V1.pdf - Diagrama arquitectura sistema
+
+CASOS DE USO
+--------------------------------------------------+-------------------------------------------------------
+CU_001                                            | Diagrama de caso de uso.pdf - Diagramas casos de uso
+CU_002                                            | G6_DiagramaCU.pdf - Diagrama casos uso línea base
+
+DIAGRAMAS DE CLASES
+--------------------------------------------------+-------------------------------------------------------
+DC_001                                            | Diagrama de Clases La Italiana.pdf - Diagrama clases principal
+
+DIAGRAMAS DE COMPONENTES
+--------------------------------------------------+-------------------------------------------------------
+DCOMP_001                                         | Diagrama de Componentes.pdf - Diagrama componentes sistema
+
+DIAGRAMAS DE SECUENCIA
+--------------------------------------------------+-------------------------------------------------------
+DS_001                                            | Diagrama de Secuencia La Italiana.pdf - Diagrama secuencia
+
+DIAGRAMAS ENTIDAD-RELACIÓN
+--------------------------------------------------+-------------------------------------------------------
+DER_001                                           | Entidad - Relacion.pdf - Diagrama entidad-relación BD
+
+ESTRUCTURA DE DESGLOSE DE TRABAJO
+--------------------------------------------------+-------------------------------------------------------
+EDT_001                                           | EDT_LaItaliana.pdf - Estructura desglose trabajo
+
+ANÁLISIS FODA
+--------------------------------------------------+-------------------------------------------------------
+FODA_001                                          | FODA_G6_V1_.pdf - Análisis FODA del proyecto
+
+VIDEOS Y PRESENTACIONES
+--------------------------------------------------+-------------------------------------------------------
+VID_001                                           | Link Videos.pdf - Enlaces videos del proyecto
+VID_002                                           | Evidencia Video.pdf - Evidencia videos entrevistas
+
+ACTIVIDADES ACADÉMICAS - UNIDAD 1
+--------------------------------------------------+-------------------------------------------------------
+ACT_U1_001                                        | GRUPO 6 - PREGUNTAS CAPITULO 2 - Corregido.pdf - Tareas U1
+ACT_U1_002                                        | G6_Historias_De_Usuario_Llenar .xlsx - Taller matriz historias
+ACT_U1_003                                        | G6_EDTV2_5W2H.pdf - Taller EDT y 5W2H
+ACT_U1_004                                        | G6_DiseñoCU_DiagramaClasesV1.pdf - Taller Somerville V1
+ACT_U1_005                                        | G6_DiseñoCU_DiagramaClases V2.pdf - Taller Somerville V2
+ACT_U1_006                                        | Preguntas5W2H.pdf - Preguntas metodología 5W2H
+ACT_U1_007                                        | EDT.pdf - Documento EDT taller
+
+ACTIVIDADES ACADÉMICAS - UNIDAD 2
+--------------------------------------------------+-------------------------------------------------------
+ACT_U2_001                                        | U2MVCTaller1.pdf - Taller patrón MVC
+ACT_U2_002                                        | TrabajoSRP_G6 .pdf - Trabajo principio SRP
+ACT_U2_003                                        | InformeCrudEtudianteG6.pdf - Informe taller CRUD
+ACT_U2_004                                        | U2_CasoCrudEstudianteG6 (1).pdf - Caso CRUD estudiante V1.5
+ACT_U2_005                                        | U2_CasoCrudEstudianteCapasG6 V2.pdf - CRUD 3 capas V2
+ACT_U2_006                                        | U2T3_CasoCrudEstudianteG6.pdf - CRUD estudiante V2.0
+ACT_U2_007                                        | Presentacion PatronesG6 Analisis.pptx.pdf - Presentación patrones
+
+EVALUACIONES
+--------------------------------------------------+-------------------------------------------------------
+EVA_001                                           | ColomaKevin_U2_Examen.rar - Examen U2 Kevin Coloma
+EVA_002                                           | GrandaCarlos_U2_Examen.zip - Examen U2 Carlos Granda
+EVA_003                                           | MoreiraErick_U2_Examen.rar - Examen U2 Erick Moreira
+
+CÓDIGO FUENTE - VERSIÓN 1
+--------------------------------------------------+-------------------------------------------------------
+CF_V1_001                                         | index.js - Archivo principal backend V1
+CF_V1_002                                         | package.json - Configuración dependencias V1
+CF_V1_003                                         | package-lock.json - Bloqueo versiones V1
+CF_V1_004                                         | .env - Variables entorno V1
+
+CÓDIGO FUENTE - VERSIÓN 2
+--------------------------------------------------+-------------------------------------------------------
+CF_V2_001                                         | package.json - Configuración dependencias V2
+CF_V2_002                                         | package-lock.json - Bloqueo versiones V2
+CF_V2_003                                         | .env - Variables entorno V2
+CF_V2_004                                         | src/app.js - Aplicación principal V2
+CF_V2_005                                         | src/server.js - Servidor V2
+CF_V2_006                                         | src/config/db.js - Configuración base datos
+CF_V2_007                                         | src/config/env.js - Configuración entorno
+CF_V2_008                                         | src/config/multer.js - Configuración archivos
+CF_V2_009                                         | src/controllers/auth.controller.js - Controlador autenticación
+CF_V2_010                                         | src/controllers/users.controller.js - Controlador usuarios
+CF_V2_011                                         | src/controllers/productos.controller.js - Controlador productos
+CF_V2_012                                         | src/controllers/categorias.controller.js - Controlador categorías
+CF_V2_013                                         | src/controllers/orden.controller.js - Controlador órdenes
+CF_V2_014                                         | src/middlewares/auth.middleware.js - Middleware autenticación
+CF_V2_015                                         | src/middlewares/errorHandler.middleware.js - Middleware errores
+CF_V2_016                                         | src/routes/auth.routes.js - Rutas autenticación
+CF_V2_017                                         | src/routes/users.routes.js - Rutas usuarios
+CF_V2_018                                         | src/routes/productos.routes.js - Rutas productos
+CF_V2_019                                         | src/routes/categorias.routes.js - Rutas categorías
+CF_V2_020                                         | src/routes/orden.routes.js - Rutas órdenes
+CF_V2_021                                         | src/utils/mailer.js - Utilidad email
+CF_V2_022                                         | src/utils/pdf.js - Utilidad generación PDF
+
+FRONTEND - VERSIÓN 1
+--------------------------------------------------+-------------------------------------------------------
+FE_V1_001                                         | README.md - Documentación frontend V1
+
+FRONTEND - VERSIÓN 2
+--------------------------------------------------+-------------------------------------------------------
+FE_V2_001                                         | README.md - Documentación frontend V2
+FE_V2_002                                         | package.json - Configuración frontend V2
+FE_V2_003                                         | package-lock.json - Bloqueo versiones frontend V2
+FE_V2_004                                         | vite.config.js - Configuración Vite
+FE_V2_005                                         | index.html - HTML principal
+FE_V2_006                                         | eslint.config.js - Configuración ESLint
+
+DOCUMENTOS DE LÍNEA BASE
+--------------------------------------------------+-------------------------------------------------------
+LB_001                                            | G4_EXAMEN_U3_SRS.docx - Examen SRS línea base
+
+DOCUMENTOS DE SOPORTE
+--------------------------------------------------+-------------------------------------------------------
+DOC_SOP_001                                       | Rubrica_GN#6_23305_Defensa_FinaADSW.docx - Rúbrica defensa
+
+ARCHIVOS DE IDENTIFICACIÓN
+--------------------------------------------------+-------------------------------------------------------
+ID_001                                            | GrupoG6.md - Archivo identificación grupo (múltiples ubicaciones)
+
+ARCHIVOS GENERADOS - REPORTES PDF
+--------------------------------------------------+-------------------------------------------------------
+RPT_001                                           | orden_6_1753586155440.pdf - Reporte orden 6
+RPT_002                                           | orden_7_1753586156040.pdf - Reporte orden 7
+RPT_003                                           | orden_9_1753586185609.pdf - Reporte orden 9
+RPT_004                                           | orden_10_1753586186580.pdf - Reporte orden 10
+RPT_005                                           | orden_11_1753586305749.pdf - Reporte orden 11
+RPT_006                                           | orden_12_1753586306052.pdf - Reporte orden 12
+RPT_007                                           | orden_13_1753586306214.pdf - Reporte orden 13
+
+ARCHIVOS COMPRIMIDOS
+--------------------------------------------------+-------------------------------------------------------
+ZIP_001                                           | ProyectoEstudiantesGrupo6.rar - Proyecto estudiantes (múltiples versiones)
+ZIP_002                                           | ProyectoEstudiantes.rar - Proyecto estudiantes V2
+ZIP_003                                           | ProyectoEstudianteCrud SRP - Proyecto CRUD con SRP
+
+ARCHIVOS DE RECURSOS
+--------------------------------------------------+-------------------------------------------------------
+REC_001                                           | Múltiples archivos de imágenes en uploads/ (jpg, png, webp)
+REC_002                                           | logo.png - Logo del sistema
+REC_003                                           | donas.jpg - Imagen productos
+REC_004                                           | galleta.jpg - Imagen productos
+
+ARCHIVOS DE CONFIGURACIÓN JAVA
+--------------------------------------------------+-------------------------------------------------------
+JAVA_001                                          | CRUD_Estudiante.iml - Archivo proyecto IntelliJ IDEA
+
+================================================================================
+RESUMEN DEL INVENTARIO
+================================================================================
+
+Total de ECS identificados: 150+
+Tipos de archivos incluidos:
+- PDF: 90+ archivos
+- XLSX: 25+ archivos  
+- DOCX: 10+ archivos
+- JS: 15+ archivos
+- JSON: 8+ archivos
+- MD: 40+ archivos
+- Otros: 20+ archivos
+
+Bibliotecas con ECS:
+- Biblioteca de Trabajo: 60+ ECS
+- Biblioteca Maestra: 20+ ECS
+- Biblioteca de Soporte: 20+ ECS
+- Actividades: 15+ ECS
+- Código: 30+ ECS
+- Diseños: 10+ ECS
+
+Estado del inventario: COMPLETO
+Última actualización: 07/08/2025
+
+================================================================================
+OBSERVACIONES
+================================================================================
+
+1. Algunos ECS tienen equivalencias (mismo contenido en diferentes bibliotecas)
+2. Se identificaron relaciones de derivación entre documentos DOCX y PDF
+3. El código fuente V2 presenta una arquitectura más modular que V1
+4. Existen archivos temporales generados por el sistema (reportes PDF)
+5. Se mantiene trazabilidad entre versiones de documentos
+
+================================================================================
