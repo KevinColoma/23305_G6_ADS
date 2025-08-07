@@ -1,0 +1,285 @@
+.carrito-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.carrito-producto {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  gap: 1.5rem;
+}
+
+.carrito-producto img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.carrito-info {
+  flex: 1;
+}
+
+.carrito-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.carrito-info p {
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+.carrito-cantidad {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.carrito-cantidad input {
+  width: 50px;
+  padding: 4px;
+  text-align: center;
+}
+
+.eliminar-btn {
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.resumen {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.resumen h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.resumen-linea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.resumen-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.boton-pagar {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px); /* efecto de fondo difuminado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 480px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilo de formulario */
+.pago-modal {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pago-titulo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pago-titulo::before {
+  content: "Pago";
+  font-size: 1.5rem;
+}
+
+.pago-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pago-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 1rem; /* aquí damos más espacio vertical */
+}
+
+.pago-grid input:nth-child(1) {
+  grid-column: 1 / -1;
+}
+
+.pago-input {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  background-color: #f9fafb;
+}
+
+.pago-input:focus {
+  border-color: #10b981;
+  outline: none;
+  background-color: #fff;
+}
+
+.pago-error {
+  color: #dc2626;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.pago-botones {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.pago-btn {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.pago-btn.pagar {
+  background-color: #10b981;
+  color: white;
+}
+
+.pago-btn.pagar:hover {
+  background-color: #059669;
+}
+
+.pago-btn.cancelar {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.pago-btn.cancelar:hover {
+  background-color: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .pago-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.modal-exito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.3s ease-in-out;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.check-animation {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #10b981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.check-mark {
+  width: 35px;
+  height: 20px;
+  border-left: 5px solid white;
+  border-bottom: 5px solid white;
+  transform: rotate(-45deg);
+  animation: drawCheck 0.5s ease-in-out;
+}
+
+@keyframes drawCheck {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 35px;
+    height: 20px;
+    opacity: 1;
+  }
+}

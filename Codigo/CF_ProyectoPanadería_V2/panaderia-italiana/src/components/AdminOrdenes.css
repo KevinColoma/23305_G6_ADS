@@ -1,0 +1,124 @@
+/* Contenedor principal */
+.admin-ordenes {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Título */
+.admin-ordenes h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.filtros label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.filtros input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+/* Botones de exportación */
+.filtros button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filtros .btn-csv {
+  background-color: #1976d2;
+  color: white;
+}
+
+.filtros .btn-csv:hover {
+  background-color: #1257a6;
+}
+
+.filtros .btn-pdf {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.filtros .btn-pdf:hover {
+  background-color: #a32828;
+}
+
+/* Orden individual */
+.orden {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.4s ease both;
+}
+
+.orden:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.orden h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.orden p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.orden ul {
+  list-style-type: disc;
+  margin-left: 1.2rem;
+  color: #444;
+}
+
+.orden li {
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+/* Animación de aparición */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mensaje de vacío */
+.sin-ordenes {
+  font-style: italic;
+  color: #888;
+  text-align: center;
+}

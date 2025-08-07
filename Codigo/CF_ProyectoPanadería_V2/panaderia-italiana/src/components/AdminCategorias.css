@@ -1,0 +1,125 @@
+.admin-categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .admin-categorias {
+    flex-direction: row;
+  }
+}
+
+.form-container {
+  flex: 1;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.form-container h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-submit {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-submit:hover {
+  background-color: #1257a6;
+}
+
+.btn-clear {
+  background-color: #999;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.categorias-list {
+  flex: 1;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.categorias-list h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.categoria-item {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.categoria-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.categoria-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.categoria-actions button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.categoria-actions .edit-btn {
+  background-color: #1976d2;
+  color: white;
+}
+
+.categoria-actions .delete-btn {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.mensaje {
+  font-weight: bold;
+  color: #d32f2f;
+  margin-top: 1rem;
+}
