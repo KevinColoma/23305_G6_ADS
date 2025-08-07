@@ -8,8 +8,8 @@ Este repositorio contiene el desarrollo del sistema La Italiana. Se incluyen art
 
 | Versión | Fecha | Responsable | Aprobado por |
 |---------|-------|-------------|--------------|
-| PGC_V1.0 | 30/06/2025 | Kevin Coloma | Erick Moreira, Kevin Coloma y Carlos Granda |
-| PGC_V2.1.0 | 15/07/2025 | Erick Moreira | Carlos Granda, Erick Moreira y Kevin Coloma |
+| PGC_V1.0 | 01/08/2025 | Kevin Coloma | Erick Moreira, Kevin Coloma y Carlos Granda |
+| PGC_V2.1.0 | 05/08/2025 | Erick Moreira | Carlos Granda, Erick Moreira y Kevin Coloma |
 
 
 
